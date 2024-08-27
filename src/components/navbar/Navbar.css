@@ -1,0 +1,90 @@
+nav {
+    /* background-color: rgba(0, 0, 255, 0.445); */
+    padding: 20px 0px;
+}
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .container h1{
+    font-family: "Dancing Script", cursive;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+}
+nav button{
+    padding: 5px 20px;
+    border: none;
+    text-shadow: 2px 2px 2px red;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid rgb(230, 77, 77);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.colors{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.mode{
+     font-size: 28px;
+    /* padding: 10px; */
+  
+    color: rgba(0, 0, 0, 0.952);
+   cursor: pointer;
+}
+.collectCol{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.collectCol  h3{
+    padding: 10px;
+   
+    border-radius: 50%;
+    cursor: pointer;
+   
+}
+.navbarall.active1{
+    background-color: black !important;
+}
+.nav1.active1{
+    background-color: black;
+}
+.nav1{
+    background-color: blue;
+}
+/* .nav2.active1{
+    background-color: black;
+} */
+.nav1{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 99;
+}
+.nav2{
+    margin-top: 100px;
+}
+@media (max-width: 427px ){
+    nav {
+        /* background-color: rgba(0, 0, 255, 0.445); */
+        padding: 20px 0px;
+    }
+    nav .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+       padding: 0px 20px;
+    }
+    .nav2{
+        width: 100%;
+        padding: 0px 10px;
+    }
+}

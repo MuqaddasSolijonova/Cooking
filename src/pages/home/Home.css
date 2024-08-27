@@ -1,0 +1,67 @@
+section .container{
+    padding: 30px 0px;
+}
+.block{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.box{
+    width: 276px;
+    height: 276px;
+    border: 2px solid rgba(0, 0, 255, 0.445);
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+.box h1{
+    font-size: 30px;
+    height: 60px;
+    color: rgba(0, 0, 255, 0.445);
+    font-family: monospace;
+    margin-bottom: 10px;
+}
+.box h3{
+    font-size: 20px;
+    color: rgba(0, 0, 255, 0.329);
+    font-family: monospace;
+    margin-bottom: 10px;
+}
+.box p{
+    font-size: 12px;
+    color: rgba(255, 0, 0, 0.521);
+    height: 40px;
+    margin-bottom: 30px;
+}
+.time{
+   color: rgba(255, 0, 0, 0.521);
+}
+.del{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgba(0, 0, 0, 0.966);
+    cursor: pointer;
+}
+.box .btn{
+    padding: 8px 16px;
+    transform: translate(80%);
+     border: none;
+     color: white;
+     background-color:rgba(0, 0, 255, 0.61) ;
+     border-radius: 5px;
+     cursor: pointer;
+     font-family: monospace;
+     text-shadow: 1px 1px 1px red;
+}
+  .section1.active  {
+    background-color: black;
+}
+.section1{
+    height: 100%;
+}
+.section1.active .block{
+    background-color: black;
+}
