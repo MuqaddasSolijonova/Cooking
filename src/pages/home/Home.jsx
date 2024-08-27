@@ -29,7 +29,7 @@ function Home({ data , setData, setDark, dark}) {
               <p>{item.method.slice(0,100)}...</p>
               <NavLink to={`/about/${item.id}`}>  <button   onClick={()=>{
                 oneData()
-              }} className='btn'>Read more</button></NavLink>
+              }} className='btn'>Read more  more more</button></NavLink>
               </div>
               )
             }) : <div><h2>hech narsa yo'q</h2></div>
